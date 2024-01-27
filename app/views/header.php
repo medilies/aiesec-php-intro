@@ -12,7 +12,7 @@
 ?>
 
 <header>
-    <h1> AIESEC </h1>
+    <h1> AIESEC PHP intro </h1>
     <?php if(is_null($username)): ?>
         <a href="/login"> Login </a>
         <a href="/register"> Register </a>
@@ -20,7 +20,7 @@
         <form action="/logout" method="post" >
             <button> Logout </button>
         </form>
-        <p> <?= htmlspecialchars($username) ?> </p>
+        <p> You are: <?= htmlspecialchars($username) ?> </p>
     <?php endif; ?>
 </header>
 
