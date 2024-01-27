@@ -1,0 +1,19 @@
+{
+    "name": "medilies/aiesec-php-intro",
+    "type": "project",
+    "autoload": {
+        "files": [
+            "app/helpers.php"
+        ],
+        "psr-4": {
+            "Medilies\\AiesecPhpIntro\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "medilies",
+            "email": "medilies@gmail.com"
+        }
+    ],
+    "require": {}
+}
